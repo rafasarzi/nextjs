@@ -1,8 +1,8 @@
-export default function hendler(req, res) {
+export default function handler(req, res) {
      const codigo = req.query.codigo
      res.status(200).json({
         id: codigo,
-        nome:`teste ${codigo}`,
-        email:`rafa${codigo}@xfcmail.com`
+        nome:`rafa ${codigo}`,
+        email:`rafarafa${codigo}@xfcmail.com`
      })
 }
